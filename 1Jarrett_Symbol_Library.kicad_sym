@@ -21,8 +21,8 @@
     (symbol "+1.1V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -65,8 +65,8 @@
     (symbol "+100V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -109,8 +109,8 @@
     (symbol "+100V_IEM_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -153,8 +153,8 @@
     (symbol "+100V_RCC1_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -197,8 +197,8 @@
     (symbol "+100V_RCC3_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -241,8 +241,8 @@
     (symbol "+12V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -285,8 +285,8 @@
     (symbol "+15V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -329,8 +329,8 @@
     (symbol "+2.5V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -373,8 +373,8 @@
     (symbol "+24V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -417,8 +417,8 @@
     (symbol "+3.3V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -461,8 +461,8 @@
     (symbol "+3.7V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -505,8 +505,8 @@
     (symbol "+5.1V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -549,8 +549,8 @@
     (symbol "+5V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -601,8 +601,8 @@
       )
       (polyline
         (pts
-          (xy 2.286 -2.54)
-          (xy -2.54 -2.54)
+          (xy 1.27 -2.54)
+          (xy -1.27 -2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -645,8 +645,8 @@
       )
       (polyline
         (pts
-          (xy 2.286 -2.54)
-          (xy -2.54 -2.54)
+          (xy 1.27 -2.54)
+          (xy -1.27 -2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -4336,6 +4336,49 @@
       (pin power_in line (at 0 15.24 270) (length 2.54)
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Fuse" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "F" (id 0) (at 2.032 0 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Fuse" (id 1) (at -1.905 0 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at -1.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "fuse" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Fuse" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "*Fuse*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Fuse_0_1"
+      (arc (start 0 -2.54) (mid 1.2542 -1.27) (end 0 0)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 0 2.54) (mid -1.2477 1.27) (end 0 0)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "Fuse_1_1"
+      (pin passive line (at 0 3.81 270) (length 1.27)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -3.81 90) (length 1.27)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
       )
     )
   )

@@ -21,8 +21,8 @@
     (symbol "+1.1V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -65,8 +65,8 @@
     (symbol "+100V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -109,8 +109,8 @@
     (symbol "+100V_IEM_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -153,8 +153,8 @@
     (symbol "+100V_RCC1_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -197,8 +197,8 @@
     (symbol "+100V_RCC3_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -241,8 +241,8 @@
     (symbol "+12V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -285,8 +285,8 @@
     (symbol "+15V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -329,8 +329,8 @@
     (symbol "+2.5V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -373,8 +373,8 @@
     (symbol "+24V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -417,8 +417,8 @@
     (symbol "+3.3V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -461,8 +461,8 @@
     (symbol "+3.7V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -505,8 +505,8 @@
     (symbol "+5.1V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -549,8 +549,8 @@
     (symbol "+5V_0_1"
       (polyline
         (pts
-          (xy -2.286 2.54)
-          (xy 2.54 2.54)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -601,8 +601,8 @@
       )
       (polyline
         (pts
-          (xy 2.286 -2.54)
-          (xy -2.54 -2.54)
+          (xy 1.27 -2.54)
+          (xy -1.27 -2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -645,8 +645,8 @@
       )
       (polyline
         (pts
-          (xy 2.286 -2.54)
-          (xy -2.54 -2.54)
+          (xy 1.27 -2.54)
+          (xy -1.27 -2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -3090,7 +3090,7 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+    (property "ki_keywords" "power-flag, Chassis, GND" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Power symbol creates a global label with name \"CGND\"" (id 5) (at 0 0 0)
