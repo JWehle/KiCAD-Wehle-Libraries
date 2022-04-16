@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP XIO2001IZAJ
+D PCI Express (PCIe) to PCI Bus Translation Bridge
+K
+F https://www.ti.com/lit/ml/mpbg878a/mpbg878a.pdf
+$ENDCMP
+#
+#End Doc Library
